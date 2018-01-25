@@ -12,6 +12,7 @@
 		D70332F9201A5F51008B40B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D70332F7201A5F51008B40B6 /* Main.storyboard */; };
 		D70332FB201A5F51008B40B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D70332FA201A5F51008B40B6 /* Assets.xcassets */; };
 		D70332FE201A5F51008B40B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D70332FC201A5F51008B40B6 /* LaunchScreen.storyboard */; };
+		D7033307201A600B008B40B6 /* MoltedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7033306201A600B008B40B6 /* MoltedTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,13 @@
 		D70332FA201A5F51008B40B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D70332FD201A5F51008B40B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D70332FF201A5F51008B40B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7033306201A600B008B40B6 /* MoltedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoltedTableViewCell.swift; sourceTree = "<group>"; };
+		D7033308201A61C2008B40B6 /* MoltedTableViewCell_before.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MoltedTableViewCell_before.png; sourceTree = "<group>"; };
+		D7033309201A61C2008B40B6 /* MoltedTableViewCell_after.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MoltedTableViewCell_after.png; sourceTree = "<group>"; };
+		D703330A201A6213008B40B6 /* tableView_separatorStyle_is_none.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tableView_separatorStyle_is_none.png; sourceTree = "<group>"; };
+		D703330B201A62CD008B40B6 /* selected_layer_added.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selected_layer_added.png; sourceTree = "<group>"; };
+		D703330C201A64F4008B40B6 /* draw_in_rect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = draw_in_rect.png; sourceTree = "<group>"; };
+		D703330D201A660F008B40B6 /* override_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = override_selected.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 		D70332F2201A5F51008B40B6 /* PerformanceOfUITableView */ = {
 			isa = PBXGroup;
 			children = (
+				D7033305201A5FBF008B40B6 /* Cell */,
 				D70332F3201A5F51008B40B6 /* AppDelegate.swift */,
 				D70332F5201A5F51008B40B6 /* ViewController.swift */,
 				D70332F7201A5F51008B40B6 /* Main.storyboard */,
@@ -62,6 +71,20 @@
 				D70332FF201A5F51008B40B6 /* Info.plist */,
 			);
 			path = PerformanceOfUITableView;
+			sourceTree = "<group>";
+		};
+		D7033305201A5FBF008B40B6 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D703330D201A660F008B40B6 /* override_selected.png */,
+				D703330C201A64F4008B40B6 /* draw_in_rect.png */,
+				D703330B201A62CD008B40B6 /* selected_layer_added.png */,
+				D703330A201A6213008B40B6 /* tableView_separatorStyle_is_none.png */,
+				D7033309201A61C2008B40B6 /* MoltedTableViewCell_after.png */,
+				D7033308201A61C2008B40B6 /* MoltedTableViewCell_before.png */,
+				D7033306201A600B008B40B6 /* MoltedTableViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7033307201A600B008B40B6 /* MoltedTableViewCell.swift in Sources */,
 				D70332F6201A5F51008B40B6 /* ViewController.swift in Sources */,
 				D70332F4201A5F51008B40B6 /* AppDelegate.swift in Sources */,
 			);
